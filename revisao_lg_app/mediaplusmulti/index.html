@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão HTML, CSS, JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Revisão HTML, CSS, JS</h1>
+
+    <!-- nome, 3 notas, final -> mult * 3 a media das 3 notas -->
+     <main>
+         <div class="wrap-inputs">
+             <label for="nome">Nome:</label>
+             <input id="nome" type="text" placeholder="Digite seu nome">
+         </div>
+
+         <div class="wrap-inputs">
+            <label for="nota1">Nota 01</label>
+            <input id="nota1" type="number" placeholder="Digite a primeira nota">
+         </div>
+
+         <div class="wrap-inputs">
+            <label for="nota2">Nota 02</label>
+            <input id="nota2" type="number" placeholder="Digite a primeira nota">
+         </div>
+
+         <div class="wrap-inputs">
+            <label for="nota3">Nota 03</label>
+            <input id="nota3" type="number" placeholder="Digite a primeira nota">
+         </div>
+         
+         <button onclick="calcular()">CALCULAR</button>
+     </main>
+
+    <p id="resposta"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
